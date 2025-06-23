@@ -1,0 +1,12 @@
+body {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #215242;
+    text-align: center;
+     transition: transform 0.1s ease;
+}
+
+body:hover {
+  transform: perspective(200px) translateZ(10px)
+}
